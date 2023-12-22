@@ -40,7 +40,7 @@
         console.log(result);
       }*/
 
-      function greet(name) {
+     /* function greet(name) {
       console.log(`Hello ${name}!`);
       }
       if(!name) {
@@ -49,6 +49,56 @@
       greet('Amin');
       greet('Ayo')
       greet();
+      
+     const product = {
+      name: 'basketball',
+      price: '2095'
+     }
+
+     console.log(product);
+     product.price += 500;
+     console.log(product);
+     product['delivery-time'] = '3 days';
+     console.log(product);
+
+     function comparePrice(product1, product2) {
+      if (product1.price < product2.price) {
+        return product1;
+      } else {
+      return product2;
+     }
+    }
+
+    const product1 = {
+      name: 'basketball',
+      price: 2095
+    };
+
+    const product2 = {
+      name: 'socks',
+      price: 1090
+    };
+
+    console.log(comparePrice(product1, product2));
+     */
+
+     function isSameProduct(product1, product2) {
+      if (product1 === product2) {
+        console.log(true);
+      }else (product1 != product2) {
+        comsole.log(!true);
+      }
+    }
+
+      const product1 = {
+      name: 'basketball',
+      price: 2095
+    };
+
+    const product2 = {
+      name: 'socks',
+      price: 1090
+     }
     </script>
   </body>
 </html>
