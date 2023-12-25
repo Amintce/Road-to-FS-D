@@ -2,6 +2,16 @@
 <html>
   <head></head>
   <body>
+    <input placeholder="Name" class="js-name-input">
+
+    <button onclick="
+      const inputElement = document.querySelector('.js-name-input');
+      document.querySelector('.js-message')
+      .innerHTML = `Your name is: ${inputElement.value}`;
+    ">Submit</button>
+
+    <p class="js-message"></p>
+
     <script>
       /*let name = 'Alamin';
       console.log(`My name is : ${name}`);
@@ -82,7 +92,7 @@
     console.log(comparePrice(product1, product2));
      */
 
-     function isSameProduct(product1, product2) {
+     /*function isSameProduct(product1, product2) {
       if (product1 === product2) {
         console.log(true);
       }else (product1 != product2) {
@@ -98,6 +108,10 @@
     const product2 = {
       name: 'socks',
       price: 1090
+     }
+     */
+     if (event.key === 'Enter') {
+      
      }
     </script>
   </body>
